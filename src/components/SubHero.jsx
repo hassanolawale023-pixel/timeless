@@ -34,7 +34,7 @@ const SubHero = () => {
         <div className='items-start py-12 '>
             <p className='text-4xl font-semibold max-w-md sm:max-w-lg lg:max-w-lg mb-8 '>Luxury Watch Appraisal</p>
 
-            <p className='font-light mt-5 max-w-md sm:max-w-lg lg:max-w-lg mb-8 text-sm:text-base pb-50'>Whether you're seeking a statement piece for a special occasion of an everyday watch that reflects your unique personality, our styling sessions offer tailored guidance and recommendations.</p>
+            <p className='font-light mt-5 max-w-md sm:max-w-lg lg:max-w-lg mb-8 text-sm:text-base pb-5 lg:pb-50'>Whether you're seeking a statement piece for a special occasion of an everyday watch that reflects your unique personality, our styling sessions offer tailored guidance and recommendations.</p>
 
     {data.map((item, index)=>(
         <div key={index}>

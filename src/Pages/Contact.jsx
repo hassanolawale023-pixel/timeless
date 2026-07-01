@@ -76,44 +76,44 @@ const Contact = () => {
 
       </div>
 
-       <div className='flex flex-col-reverse gap-20 sm:flex-row lg:mt-25 sm:mt-25'>
+       <div className='flex flex-col-reverse gap-10 sm:flex-row lg:mt-25 sm:mt-25'>
 
-        <div className='w-full lg:w-1/2 md:w-1/2 px-4 mb-5 gap-5 py-10 grid grid-cols-2'>
+        <div className='w-full lg:w-1/2 md:w-1/2 px-2 mb-5 gap-5 py-5 grid grid-cols-2'>
 
         <div className='col-span-2 mb-5'>
-        <p className='px-3 text-lg'>Feel free to adjust the description to include specific contact details such as email address, phone number, and physical address as needed.</p>
+        <p className='px-1 text-lg'>Feel free to adjust the description to include specific contact details such as email address, phone number, and physical address as needed.</p>
         </div>
 
           <div>
-            <p className=' px-3'>Location</p>
+            <p className=' px-1'>Location</p>
           </div>
 
           <div>
-           <p className=' px-3'>1, Odunlami Street, Lagos Island, Lagos.</p>
+           <p className=' px-1'>1, Odunlami Street, Lagos Island, Lagos.</p>
           </div>
 
           <div>
-            <p className=' px-3'>Email</p>
+            <p className=' px-1'>Email</p>
           </div>
 
           <div>
-            <p className=' px-3'> hassanolawale023@gmail.com</p>
+            <p className=' px-1'> hassanolawale023@gmail.com</p>
           
           </div>
 
           <div>
-          <p className=' px-3'>Phone Number</p>
+          <p className=' px-1'>Phone Number</p>
           </div>
 
           <div>
-            <p className=' px-3'>0813954558</p>
+            <p className=' px-1'>0813954558</p>
           </div>
 
-            <div>
-              <p className='px-3'> Follow us on</p>
+            <div >
+              <p className='px-1'> Follow us on</p>
             </div>
 
-            <div className='flex flex-row items-center gap-3'>
+            <div className='flex flex-row items-center  gap-1.5'>
             <p>Facebook</p>
             <p>Twitter</p>
             <p>Instagram</p>

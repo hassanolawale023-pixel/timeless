@@ -14,7 +14,7 @@ const NewsLetterBox = () => {
         Get the latest updates on new products and upcoming sales
       </p>
 
-      <form onSubmit={onSubmitHandler} className='mt-8 w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 pl-3 hover:border'>
+      <form onSubmit={onSubmitHandler} className='mt-8 w-full sm:w-1/2 flex items-center gap-3 mx-auto my-10 pl-3 hover:border'>
         <input
           type="email"
           placeholder="Enter your email"

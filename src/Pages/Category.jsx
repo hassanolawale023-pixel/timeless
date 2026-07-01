@@ -12,7 +12,7 @@ const Category = () => {
 
 
   return (
-    <div className=' md:px-50 lg:px-1'>
+    <div className=' md:px-50 mb-15 lg:px-1'>
     <div className="w-full mt-15 px-4 sm:px-8 lg:px-10 py-16 bg-gray-50" >
        <div className="mb-10">
               <Title text1={'Explore'} text2={'Watch Categories'}/>

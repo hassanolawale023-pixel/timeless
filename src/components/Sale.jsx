@@ -18,7 +18,7 @@ const Sale = () => {
 
 
   return (
-    <div className='my-10 mb-50'>
+    <div className='my-5 mb-25'>
         <div className='text-start text-4xl py-8 px-9'>
             <Title text1={'Limited'} text2={' Offers'}/>
         <p className='w-3/4 m-auto text-center text-xs sm:text-sm md:text-base text-black'>Discover exclusive deals on our latest luxury watch collections.</p>
@@ -32,7 +32,7 @@ const Sale = () => {
                 .map((item, index) => (
                 <ProductItem
                 key={index}
-                id={item.id}
+                id={item._id}
                 image={item.image}
                 name={item.name}
                 price={item.price}

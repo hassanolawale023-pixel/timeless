@@ -41,7 +41,7 @@ const Faq = () => {
 
 
   return (
-     <div className='px-5 md:px-10 py-16 mt-5 lg:mt-25'>
+     <div className='px-5 md:px-10 lg:py-16 mt-5 lg:mt-25'>
         <div className='mb-12'>
             <Title text1={'FAQs'} text2={'Have any questions?'}/>
         </div>
@@ -98,7 +98,7 @@ const Faq = () => {
                 ease: 'easeInOut'
                 }}
                 className='overflow-hidden'>
-                <p className='pt-4 text-gray-400 text-sm sm:text-base leading-relaxed'>
+                <p className='pt-4 text-gray-600 text-sm sm:text-base leading-relaxed'>
                 {item.content}</p>
             </motion.div>
     )}

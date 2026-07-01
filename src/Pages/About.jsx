@@ -113,7 +113,7 @@ const About = () => {
     </div>
 
     <div className='flex flex-col lg:flex-row gap-10 mt-5 lg:mt-15 px-5 py-10'>
-      <div className='py-20 md:w-full justify-center items-center'>
+      <div className='py-5 lg:py-20 md:w-full justify-center items-center'>
         <p className='text-5xl'>Our Mission</p>
         <p className='text-sm max-w-md sm:max-w-lg lg:max-w-lg text-start py-5'>Our mission is to redefine the way people perceive and experience timekeeping. We are committed to offering an unparalleled selection of exquisite timepieces that not only tell time but also tell stories.</p>
         <button 
@@ -147,11 +147,11 @@ const About = () => {
         className="absolute top-0 left-0 w-full h-full bg-white z-10"/>
         </div>
 
-        <div className='py-20 justify-center items-center md:w-full'>
+        <div className='py-2 lg:py-20 justify-center items-center md:w-full'>
         <p className='text-5xl'>Our Vision</p>
         <p className='text-sm max-w-md sm:max-w-lg lg:max-w-lg text-start py-5'>Our vision is to inspire passion, creativity, and self-expression through the world of horology, enriching the lives of our customers one watch at a time.We envision a future where every individual can find their perfect watch, regardless of style or budget, and where the experience of shopping for a timepiece is as memorable as wearing it.</p>
         <button 
-        onClick={()=>navigate('/cpllection')}
+        onClick={()=>navigate('/collection')}
         className='border border-black bg-white text-black cursor-pointer px-5 py-2 text-sm sm:text-base hover:bg-black hover:text-white '>View Collection</button>
 
       </div>
@@ -187,7 +187,7 @@ const About = () => {
       </div>
 
 
-      <div className='flex flex-col px-8 py-15'>
+      <div className='flex flex-col px-8  lg:py-15'>
         <span className='text-gray-400 text-xs'>02</span>
         <p>Sustainable Materials</p>
         <p className='text-gray-400 text-sm py-5'>From eco-friendly materials to ethical sourcing practices, we strive to minimize our environmental footprint while creating watches that stand the test of time.</p>

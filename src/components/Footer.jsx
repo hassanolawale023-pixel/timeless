@@ -8,7 +8,7 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
   <div>
-    <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 py-5 px-10 lg:mt-40 text-sm  bg-black text-gray-400 '>
+    <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 py-5 px-10 lg:mt-40 text-sm bottom-0 bg-black text-gray-400 '>
 
       <div className='py-10'>
         <img src={assets.LOGO} className='mb-4 w-19' alt="" />

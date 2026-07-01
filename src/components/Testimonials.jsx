@@ -52,7 +52,7 @@ const Testimonials = () => {
 
 
   return (
-<div className='my-10 lg:mb-20 w-full px-4 sm:px-6 lg:px-10 py-6 lg:py-10'>
+<div className='lg:my-10 lg:mb-20 w-full px-4 sm:px-6 lg:px-10 py-6 lg:py-10'>
 
   <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 mb-8'>
 

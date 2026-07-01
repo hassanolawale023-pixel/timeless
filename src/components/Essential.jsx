@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Essential = () => {
   return (
-    <div className="w-full px-4 sm:px-8 lg:px-10 py-10">
+    <div className="w-full px-4 sm:px-8 lg:px-10 lg:py-10">
       
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-6">
         
