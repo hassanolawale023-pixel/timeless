@@ -220,7 +220,9 @@ const About = () => {
     </div>
 
     <TheTeam/>
+    <div className='mb-10'>
     <OurPolicy/>
+    </div>
     <Faq/>
   </div>
   )

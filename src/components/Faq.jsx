@@ -41,7 +41,7 @@ const Faq = () => {
 
 
   return (
-     <div className='px-5 md:px-10 lg:py-16 mt-5 lg:mt-25'>
+     <div className='px-5 md:px-10 mb-15 lg:py-16 mt-5 lg:mt-25'>
         <div className='mb-12'>
             <Title text1={'FAQs'} text2={'Have any questions?'}/>
         </div>

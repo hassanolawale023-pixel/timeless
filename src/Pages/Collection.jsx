@@ -78,7 +78,7 @@ const Collection = () => {
   },[sortType])
 
   return (
-    <div className='flex flex-col sm:flex-row gap-1 lg:mt-20 mt-15 mx-15 sm:gap-10 pt-10 '>
+    <div className='flex flex-col sm:flex-row gap-1 lg:mt-20 mt-15 mx-5 sm:gap-10 pt-10 '>
 
       {/* Filter Options */}
       <div className='min-w-60'>
